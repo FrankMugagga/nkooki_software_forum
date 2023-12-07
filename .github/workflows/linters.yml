@@ -76,3 +76,4 @@ jobs:
             echo -e "\e[1;32mYou can set up a .gitignore file with this folder included on it to prevent this from happening in the future."
             exit 1
           fi
+          
