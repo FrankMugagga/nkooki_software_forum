@@ -3,3 +3,24 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.home_header {
+  width: 100%;
+  background: green;
+}
+
+.home_top_div {
+  display: flex;
+  background: #D3D3D3;
+}
+
+.blank {
+  width: 50%;
+  background: #272A31;
+}
+
+.home_top_div > ul {
+  width: 50%;
+  background: green;
+
+}
