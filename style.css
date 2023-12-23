@@ -103,13 +103,12 @@ ul {
   transition-property: background, border-radius;
   transition-duration: 1s;
   transition-timing-function: linear, ease-in-out;
-  transform: rotate(45deg);  
-  }
+  transform: rotate(45deg);
+}
 
-  #about_sec1 > h2:hover {
-    background: #ff7b29;
-    
-  }
+#about_sec1 > h2:hover {
+  background: #ff7b29;
+}
 
 #about_sec1 > p {
   font-family: 'Montserrat Alternates', sans-serif;
