@@ -98,16 +98,6 @@ ul {
   font-weight: 600;
   font-size: 60px;
   color: #ec5242;
-  border: 2px solid red;
-  border-radius: 6px;
-  transition-property: background, border-radius;
-  transition-duration: 1s;
-  transition-timing-function: linear, ease-in-out;
-  transform: rotate(45deg);
-}
-
-#about_sec1 > h2:hover {
-  background: #ff7b29;
 }
 
 #about_sec1 > p {
