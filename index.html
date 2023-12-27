@@ -6,58 +6,116 @@
     <meta http-equiv="X-UA-Compatible" name="IE=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Nkooki Software Forum</title>
   </head>
 
   <body>
-    <header>
-      <div id="top">
-        <div class="top1"></div>
-        <div class="top2">
-         <div class="top3">
-          <i class="fab fa-facebook" ></i>
-          <i class="fab fa-twitter" ></i>
-          <span>English</span>
-          <span>My Page</span>
-          <button id="logout">Logout</button> 
-         </div>
+    
+    <div id="about">
+      <header>
+        <div id="top">
+          <div class="top1"></div>
+          <div class="top2">
+            <div class="top3">
+              <li><a href="https://facebook.com" class="fa fa-facebook"></a></li>
+              <i class="fab fa-facebook" ></i>
+              <i class="fab fa-twitter" ></i>
+              <span>English</span>
+              <span>My Page</span>
+              <button id="logout">Logout</button> 
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div id="logo">Logo</div>
+          <ul>
+            <li>Home</li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li>Program</li>
+            <li>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+            <li>Bookings</li>
+          </ul>
+        </nav>  
+      </header>   
+      <section id="about_sec1">
+        <h1>"Hello! Sharing world"</h1>
+        <h2>NKOOKI SOFTWARE 
+          <br>FORUM - UGANDA
+          <br> 2024
+        </h2>
+        <p>
+         A joyful celebration believing in the value of openness and sharing, creating apositive change with people from over 80 districts is taking place in January, in Nkooki
+        </p>
+        <div id="time">
+          2024-01.15(Mon) ~ 2024-01-16(Tue)
+        </div>
+        <div id="location">
+          @Nkooki Community grounds, Mukono
+        </div>
+      </section>
+    </div>
+
+    <section id="main_program">
+      <h1>Main Prgram</h1>
+      <hr>
+      <ul class="program_list">
+        <li>
+          icon
+          <h3>Lecture</h3>
+          <p>Listen to the speakers from various countries about the messages of sharing and opening</p>
+        </li>
+        <li>
+          icon
+          <h3>CC Exhibition</h3>
+          <p>Appreciate various creations applying CC license of artists, organised from Art center</p>
+        </li>
+        <li>
+          icon
+          <h3>Forum</h3>
+          <p>Have the time to share your thoughts and opions with experts for each topic</p>
+        </li>
+        <li>
+          icon
+          <h3>Workshop</h3>
+          <p>Try creating your own work using open source license rather than just wathcing at it</p>
+        </li>
+        <li>
+          icon
+          <h3>CC Ignite</h3>
+          <p>Get opportunities to network with CC affiliates around the world, also after the summit</p>
+        </li>
+      </ul>      
+    </section>
+    
+
+    <section id="speaker_wrapper">
+      <h2>Featured speakers</h2>
+      <hr>
+      <ul id="speakerSection"></ul>
+    </section>
+
+    <section id="partners">
+      <h2>Partner</h2>
+      <hr>      
+    </section>
+
+    <footer>
+      <div id="left">
+        <span>ns</span>
+        <div>Nkooki 
+          <br>software forum
         </div>
       </div>
-
-      <nav>
-        <div id="logo">Logo</div>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Program</li>
-          <li>Join</li>
-          <li>Sponsor</li>
-          <li>News</li>
-          <li>Bookings</li>
-        </ul>
-      </nav>  
-    </header>
-
-    <section id="about_sec1">
-      <h1>"Hello! Sharing world"</h1>
-
-      <h2>NKOOKI SOFTWARE 
-        <br>FORUM - UGANDA
-        <br> 2024
-      </h2>
-
-      <p>
-       A joyful celebration believing in the value of openness and sharing, creating apositive change with people from over 80 districts is taking place in January, in Nkooki
-      </p>
-
-      <div id="time">
-        2024-01.15(Mon) ~ 2024-01-16(Tue)
+      <div id="right">
+        2024 Nkooki Software Uganda. Some Rights Reserved
       </div>
-      <div id="location">
-        @Nkooki Community grounds, Mukono
-      </div>
-
-    </section>
+    </footer>
     
     <script src="index.js"></script>
   </body>
