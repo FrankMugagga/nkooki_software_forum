@@ -7,17 +7,8 @@
   box-sizing: border-box;
 }
 
-#about_firstpage {
-  display: flex;
-  width: 100%;
-}
-
-#theme_title {
-  width: 30%;
-}
-
 #about {
-  width: 69%;
+  width: 100%;
 }
 
 header {
@@ -57,7 +48,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 5px;
+  padding-right: 10%;
   width: 80%;
 }
 
@@ -74,14 +65,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5% 0 5%;
+  padding: 0 10%;
   height: 70px;
   background: white;
   border: 2px solid;
   border-bottom: none;
 }
 
-ul {
+nav > ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -95,7 +86,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   height: 89vh;
-  padding: 7% 5%;
+  padding: 7% 10%;
   background: #d3d3d360;
 }
 
@@ -129,6 +120,132 @@ ul {
   font-size: 20px;
 }
 
+#main_program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background: #272A31;
+  color: #D3D3D3;
+  height: 50vh;
+}
+
+#main_program > ul {
+  width: 80%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#main_program > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  margin-right: 5px;
+  border: 2px solid blue;
+}
+
+#main_program > ul > li > h3 {
+  margin: 5px ;
+  color: #EC5242;;
+}
+
+hr {
+  border: 1px solid #EC5242;
+  margin: 20px;
+  width: 50px;
+}
+
+#speaker_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#speaker_wrapper > ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#speaker_wrapper > ul > li{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#img_background {
+  background: url('images/speakers/chess.jpg');
+  background-repeat: no-repeat;
+  background-size: 30% 40%;
+  width: 200px;
+  border: 2px solid red;
+}
+
+#img_background > img {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 20px;  
+}
+
+#speaker_details {
+  padding-top: 20px;
+}
+
+#partners {
+  width: 100%;
+  height: 15vh;
+  background: #272A31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+footer > #left {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: red;
+}
+
+#left > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #272A31;
+}
+
+#left > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+footer > #right {
+  width: 69%;
+  padding-left: 10px;
+}
+
 /* font-family: 'Silkscreen', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
 */
+@media only screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  
+}
