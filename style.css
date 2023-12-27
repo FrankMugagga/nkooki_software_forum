@@ -125,8 +125,8 @@ nav > ul {
   flex-direction: column;
   align-items: center;
   font-family: 'Montserrat Alternates', sans-serif;
-  background: #272A31;
-  color: #D3D3D3;
+  background: #272a31;
+  color: #d3d3d3;
   height: 50vh;
 }
 
@@ -148,12 +148,12 @@ nav > ul {
 }
 
 #main_program > ul > li > h3 {
-  margin: 5px ;
-  color: #EC5242;;
+  margin: 5px;
+  color: #ec5242;
 }
 
 hr {
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
   margin: 20px;
   width: 50px;
 }
@@ -170,7 +170,7 @@ hr {
   grid-template-columns: 1fr 1fr;
 }
 
-#speaker_wrapper > ul > li{
+#speaker_wrapper > ul > li {
   display: flex;
   margin-bottom: 40px;
 }
@@ -186,7 +186,7 @@ hr {
 #img_background > img {
   width: 150px;
   margin-top: 20px;
-  margin-left: 20px;  
+  margin-left: 20px;
 }
 
 #speaker_details {
@@ -196,7 +196,7 @@ hr {
 #partners {
   width: 100%;
   height: 15vh;
-  background: #272A31;
+  background: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -226,13 +226,13 @@ footer > #left {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 2px solid #272A31;
+  border: 2px solid #272a31;
 }
 
 #left > div {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 footer > #right {
@@ -247,5 +247,4 @@ font-family: 'Montserrat Alternates', sans-serif;
   body {
     background: green;
   }
-  
 }
