@@ -100,7 +100,7 @@ nav > ul {
 #about_sec1 > h2 {
   font-family: 'Silkscreen', sans-serif;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 70px;
   color: #ec5242;
 }
 
@@ -159,6 +159,8 @@ hr {
 }
 
 #speaker_wrapper {
+  width: 100%;
+  padding: 0 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
