@@ -93,6 +93,8 @@ font-family: 'Montserrat Alternates', sans-serif;
 
 #summit_images {
   display: flex;
+  justify-content: center;
+  padding-left: 0;
   list-style: none;
   background: green;
   height: 50%;
@@ -104,11 +106,14 @@ font-family: 'Montserrat Alternates', sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
   margin-left: 10px;
   font-family: 'Montserrat Alternates', sans-serif;
   background: url('images/conference-bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin-left: 0;
+  margin-right: 2px;
 }
 
 #summit_images > li > span {
