@@ -107,12 +107,10 @@ font-family: 'Montserrat Alternates', sans-serif;
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin-left: 10px;
   font-family: 'Montserrat Alternates', sans-serif;
   background: url('images/conference-bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-left: 0;
   margin-right: 2px;
 }
 
